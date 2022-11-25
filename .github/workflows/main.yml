@@ -12,8 +12,8 @@
       runs-on:  ubuntu-latest
       
       steps:
-        - name: 'Testing github action'
-          run: pwd 
-        - name: 'Testing printing'
-          run: echo marwan
+        - name: 'printing folder content'
+          run: ls
+        # - name: 'Testing printing'
+        #   run: echo marwan
 
