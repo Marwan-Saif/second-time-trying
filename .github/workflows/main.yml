@@ -17,8 +17,7 @@
         
         - name:  'actions/checkout@v3'
         
-        - name: 'after'
+        - name: 'after1'
           run: ls
-        # - name: 'Testing printing'
-        #   run: echo marwan
+       
 
