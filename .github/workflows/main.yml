@@ -12,7 +12,12 @@
       runs-on:  ubuntu-latest
       
       steps:
-        - name: 'printing folder content'
+        - name: 'before'
+          run: ls
+        
+        - name:  actions/checkout@v3
+        
+        - name: 'after'
           run: ls
         # - name: 'Testing printing'
         #   run: echo marwan
